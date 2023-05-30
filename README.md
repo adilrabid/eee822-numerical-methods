@@ -10,3 +10,4 @@ A practical course of Electrical and Electronics Engineering called Numerical Me
 comnination of both equation by false position method ).
 - Determinatin of roots of f(x) = 0 by Newtom Rapson Method.
 - Determinatin of roots of f(x) = 0 by using Secant Method.
+- Implementation of interpolation by newton's forward method.
