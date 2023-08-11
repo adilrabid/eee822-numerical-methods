@@ -12,23 +12,8 @@ f = input("Enter the function: ");
 % The first derivative of f as g.
 g = diff(f , x);
 
-%lets assume. For example a = 0, and b = 1
-%lets assume
-a = input("Enter the first assumption: ");
-b = input("Enter the second assumption: ");
-fai = eval(subs(f, x, a));
-fbi = eval(subs(f, x, b));
-if (fai*fbi) < 0
-    if(abs(0 - fbi) > abs(0-fai))
-        n = a;
-    else
-        n = b;
-    end
-    disp("Assuming initial value: " + n);
-else
-    disp('The initial guess value is incorrect!');
-    return;
-end
+%lets assume the initial value
+n = input("Enter the initial assumption: ");
 
 while n ~= n - ( eval(subs(f, x, n)) / eval(subs(g, x, n)) )
     disp("Current value of n is : " + n);
