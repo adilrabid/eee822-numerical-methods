@@ -11,3 +11,5 @@ comnination of both equation by false position method ).
 - Determinatin of roots of f(x) = 0 by Newtom Rapson Method.
 - Determinatin of roots of f(x) = 0 by using Secant Method.
 - Implementation of interpolation by newton's forward method.
+- Implementation of interpolation by newton's backward method.
+- Implementation of interpolation by lagarange's method.

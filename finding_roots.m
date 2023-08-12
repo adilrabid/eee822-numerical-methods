@@ -15,5 +15,5 @@ syms x;
  For Example: 3*x^3 + 2*x^2 - 1*x + 25
 %}
 f = input("Enter the function: ");
-r = root(f);
-display(r);
+r = root(f, x);
+disp(r);
